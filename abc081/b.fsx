@@ -1,5 +1,4 @@
 // https://atcoder.jp/contests/abc081/tasks/abc081_b
-
 module Main
 
 let _ = stdin.ReadLine() |> int

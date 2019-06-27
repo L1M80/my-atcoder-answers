@@ -6,4 +6,4 @@ stdin.ReadLine().Split(' ')
 |> fun integers ->
     if (integers.[0] % 2) = 0 || (integers.[1] % 2) = 0 then "Even"
     else "Odd"
-|> printfn "%s"
+|> stdout.WriteLine
